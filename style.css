@@ -1,0 +1,145 @@
+/*paleta
+#011640
+##03071f
+#6fb8f8
+#035AA6
+#0D0D0D
+*/
+@font-face {
+    font-family: rob;
+    src: url(fonte/static/RobotoMono-ExtraLight.ttf);
+}
+*{
+    margin: 0%;
+    text-align: center;
+}
+header{
+    background-color: #03071f;
+    padding: 10px;
+    font-family: rob;
+}
+div{
+    text-align: center;
+    }
+h1{
+    color:#6fb8f8 ;
+    text-align: center;
+}
+nav{
+    background-color: #011640;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #035AA6;
+    color:  #03071f;
+    transition-duration: 1s;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+  
+body{
+    background-color: #011640;
+}
+p{
+    color: antiquewhite;
+    font-size: 18px;
+    padding: 0px 300px 0px 300px;
+    text-align: center;
+    font-family: rob;
+}
+h1{
+    font-family: rob;
+    color: #b3d3f0 ;
+}
+h2{
+    text-align: center;
+    color: #6aaee9; 
+    font-family: rob;
+}
+article{
+    color: antiquewhite;
+    text-align: center;
+    font-family: rob;  
+    width: 40%;
+    float: center;
+    margin: auto;
+}
+li{
+    margin-left: 50px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+h3{
+    color: antiquewhite;
+    font-weight: bold;
+    background-color: #03071f;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;    
+    font-family: rob;
+
+}
+.cont{
+    font-size: 20px;
+    background-color: #035AA6;
+    color:  #03071f;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 450px 0px 450px;
+    padding: 50px 10x 30px 10px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: rob;
+    padding-bottom: 5px;
+}
+.serv{
+    font-size: 20px;
+    background-color: #035AA6;
+    color:  #03071f;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 450px 0px 450px;
+    padding: 30px 10x 30px 10px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: rob;    
+    padding-bottom: 5px;
+}
+.cont:hover{
+    background-color: #020c1f;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 30px 10x 30px 10px;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.serv:hover{
+    background-color: #020c1f;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 30px 100x 30px 100px;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.rodape{
+    background-color: #03071f;
+    margin: 0%;
+    font-size: 10px;
+}
+
